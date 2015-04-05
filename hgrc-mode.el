@@ -37,4 +37,6 @@
 (dolist (pattern '("/\\.hgrc\\'" "/\\.hg/hgrc\\'"))
   (add-to-list 'auto-mode-alist (cons pattern 'hgrc-mode)))
 
+(provide 'hgrc-mode)
+
 ;;; hgrc-mode.el ends here

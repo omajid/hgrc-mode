@@ -34,7 +34,9 @@
   "A major mode for editing hgrc files.")
 
 ;;;###autoload
-(dolist (pattern '("/\\.hgrc\\'" "/\\.hg/hgrc\\'"))
+(dolist (pattern '("/\\.hgrc\\'"
+                   "/\\.hg/hgrc\\'"
+                   "/Mercurial\\.ini\\'"))
   (add-to-list 'auto-mode-alist (cons pattern 'hgrc-mode)))
 
 (provide 'hgrc-mode)

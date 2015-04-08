@@ -1,4 +1,4 @@
-;;; hgrc-mode.el --- major mode for editing hgrc files
+;;; hgrc-mode.el --- major mode for editing hgrc files -*- lexical-binding: t -*-
 
 ;;; Copyright (C) 2015 Omair Majid
 

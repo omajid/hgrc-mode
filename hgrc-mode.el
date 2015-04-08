@@ -1,6 +1,6 @@
-;;; hgrc-mode.el --- major mode for editing hgrc files <omajid@trotts>
+;;; hgrc-mode.el --- major mode for editing hgrc files
 
-;;; Copyright (C) 2014-2015 Omair Majid
+;;; Copyright (C) 2015 Omair Majid
 
 ;; Author: Omair Majid <omair.majid@gmail.com>
 ;; URL: http://github.com/omajid/hgrc-mode

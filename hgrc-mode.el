@@ -31,7 +31,9 @@
 
 ;;;###autoload
 (define-derived-mode hgrc-mode conf-unix-mode "hgrc"
-  "A major mode for editing hgrc files.")
+  "A major mode for editing hgrc files."
+  (let ((table hgrc-mode-syntax-table))
+    (modify-syntax-entry ?\; "<" table)))
 
 ;;;###autoload
 (dolist (pattern '("/\\.hgrc\\'"
